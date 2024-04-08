@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84678577ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <!-- <span class="logo"><h1>Portfolio</h1></span> -->
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">My Work</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi , I'm <span>Akash Kumar</span></h1>
+            <h2>a Software Developer</h2>
+            <p>Full Stack Java Developer</p>
+    
+
+        </div>
+
+
+    </div>
+
+    </div>
+    <span class="background-imgHover"></span>
+    <!-------------------About----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutfix.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello there! I'm Akash Kumar, a passionate learner diving deep into the world of Java as a full-stack Java developer. With a strong foundation in Java Server Pages (JSP), databases, SQL, and Data Structures and Algorithms (DSA) in Java, I thrive on crafting efficient and elegant solutions. Beyond coding, I find joy in the thrill of cricket matches, the serenity of travel, and the adventure of trekking through nature's wonders. Join me on this exciting journey of exploration and innovation in the realm of technology and beyond!</p>
+    <!-- ------------------------------------------ Details---------------------------------------------------------------------------------------- -->
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                            <p class="tab-links"onclick="opentab('Achivements')">Achivements</p>
+                            <p class="tab-links"onclick="opentab('Certificates')">Certificates</p>
+                        </div>
+                       
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Java</span><br>Web-App | Mobile-App | Backend</li>
+                                    <li><span>Html |CSS |JavaScript | Bootstrap</span><br>Frontend Developer</li>
+                                    <li><span>DSA(Data Structure and Algorithms)</span><br>Better Understanding of DSA & also OOPs Concepts</li>
+                                    <li><span>SQL</span><br>Expert in Database</li>
+                                </ul>
+                            </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Master of Computer Applications (MCA)</span><br>Hemwati Nandan Bahuguna Garhwal University ,Srinagar Garhwal</li>
+                                <li><span>Bachelor of Science in (CS) </span><br>Garg Degree College Laksar,Haridwar Aff. H.N.B.G.University ,Srinagar Garhwal</li>
+                                <li><span>Higher Secondary Education (12th)</span><br>K.V. Inter College Laksar , Haridwar (Uttarakhand Board)</li>
+                                <li><span>Senior Secondary Education (10th)</span><br>St.Thomas Inter College Laksar , Haridwar (Uttarakhand Board)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Achivements">
+                            <ul>
+                                <li><span>Running up Competition</span><br>Second Position in Running at District Level</li>
+                                <li><span>Sports Fest </span><br>First Position in Cricket in HNB University Srinagar,Garhwal</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Achivements">
+                            <ul>
+                                <li><span>Running up Competition</span><br>Second Position in Running at District Level</li>
+                                <li><span>Sports Fest </span><br>First Position in Cricket in HNB University Srinagar,Garhwal</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Certificates">
+                            <ul>
+                                <li><span>Geodata Processing using Python</span><br>by ISRO</li>
+                                <li><span>Full Stack web Devepment Course</span><br>by PMKY</li>
+                                <li><span>'C' Programming Language Workshop</span><br>by ENSINO</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Work / My projects---------------- -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="works-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web App Development</h2>
+                    <p>
+                        I create custom web applications using Java, making websites that work smoothly and look great. From designing the user interface to managing the database and ensuring security, I handle every aspect to deliver high-quality web apps tailored to your needs.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div >
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Manage database</h2>
+                    <p>I design and manage databases using Java, ensuring your data is organized, secure, and easily accessible. Whether it's setting up SQL databases like MySQL or NoSQL solutions like MongoDB, I optimize database performance and reliability. From data modeling to query optimization.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div >
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Mobile App Design</h2>
+                    <p>I specialize in creating mobile apps using Java, crafting seamless experiences for Android devices. From designing user interfaces to implementing backend functionality, I ensure your app is intuitive, fast, and secure. Whether it's native app development or cross-platform solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <!-- /*---------------------Progress------------------*/ -->
+    <div id="progress">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png">
+                    <div class="layer">
+                        <h3>Medicine Donation System</h3>
+                        <p>Designed a user-friendly HTML , CSS . JS and Bootstrap
+                            front-end and implemented a secure and efficient
+                            MySQL,Java JSP back-end for the Medicine Donation
+                            System. Integrated dynamic features like user
+                            authentication and real-time data management.
+                            Demonstrates expertise in both front-end design and backend
+                            development for a comprehensive software solution.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    
+                    <div class="layer">
+                        <h3>Pet Adoption Online</h3>
+                        <p>I've built a user-friendly front-end with HTML, CSS, JavaScript, and Bootstrap, coupled with a secure and efficient MySQL and Java JSP back-end for a Pet Adoption Online. It includes features like user authentication and real-time data management, showcasing expertise in both front-end design and back-end development for a complete software solution.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------contact form------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>akashkumarbr07@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6397843643</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akash-kumar-250999235/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/akashx07"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/akash_akku99/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100025060484262"><i class="fa-brands fa-facebook"></i></a>
+                        
+                    </div>
+                    <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <!-- ------connect to google sheets---- -->
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+
+            </div>
+        </div>
+        <div class="copy-ringh">
+            <p>Copyright &#169; 2023 Akash kumar". All Rights Reserved </p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links")
+        var tabcontents= document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+    </script>
+    <!-- ---------- JS For Menu- responsive ------------ -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu (){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu (){
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+     <!-- ------connect to google sheets thi js code from github---- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzZUcisJ2Z8Py9xUMwYaEarSGre6MlOVcbB1fWRgULtoG3ud954-lk4bVNpBCFFqKJe/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    // --------------Massege Sent Confirmation JS Code & function---------------  
+          .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <!-- //   --------------typed animation js-------------- -->
+    
+    
+</body>
+</html>
